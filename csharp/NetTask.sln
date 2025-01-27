@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTask", "NetTask.csproj", "{F344A06F-3794-4AE4-A6E5-E80364E29F3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetworkScanner", "NetworkScanner", "{ED65BBFC-B0DA-4100-A667-F41261A1D04F}"
+	ProjectSection(SolutionItems) = preProject
+		network.cs = network.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortScanner", "PortScanner", "{361669AF-88ED-4A3A-9DCF-EAE8A9179271}"
+	ProjectSection(SolutionItems) = preProject
+		port.cs = port.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F344A06F-3794-4AE4-A6E5-E80364E29F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F344A06F-3794-4AE4-A6E5-E80364E29F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F344A06F-3794-4AE4-A6E5-E80364E29F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F344A06F-3794-4AE4-A6E5-E80364E29F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
