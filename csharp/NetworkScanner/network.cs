@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Net;
 using System.Net.Sockets;
+using NetTask.NetworkScanner;
+
+
 
 public class Network {
     private int timer, amount;
@@ -32,17 +35,17 @@ public class Network {
         // Determine the IP class and subnet mask
         switch (ipBytes[0]) {
             case >= 1 and < 128:
-                ipBytes = new byte[] { 255, 0, 0, 0 };
+                ipBytes = [255, 0, 0, 0];
                 Console.WriteLine("A");
                 break;
 
             case >= 128 and < 192:
-                ipBytes = new byte[] { 255, 255, 0, 0 };
+                ipBytes = [255, 255, 0, 0];
                 Console.WriteLine("B");
                 break;
 
             case >= 192 and < 224:
-                ipBytes = new byte[] { 255, 255, 255, 0 };
+                ipBytes = [255, 255, 255, 0];
                 Console.WriteLine("C");
                 break;
 
@@ -67,6 +70,7 @@ public class Network {
         if (subnetMaskBytes != null) {
             IPAddress subnetMask = new IPAddress(subnetMaskBytes);
             Console.WriteLine($"Subnet Mask: {subnetMask}");
+            new NetTask.NetworkScanner.ARP(address, address, 2);
         }
     }
 }
