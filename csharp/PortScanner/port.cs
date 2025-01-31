@@ -15,7 +15,7 @@ public class Port {
         this.amount = amount;
         this.pAddress = pAddress;
 
-        StartAsync();
+        Task.Run(async () => await StartAsync()).Wait();
 
         foreach (int port in openPorts) {
         

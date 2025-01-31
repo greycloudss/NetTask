@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d14f8326b6f2efe31dc9f2e5070f6ad73141d31a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dovyd\\source\\repos\\NetTask\\NetTask.csproj",
+      "projectUniqueName": "C:\\Users\\dovyd\\Source\\Repos\\NetTask\\csharp\\NetTask.csproj",
       "projectName": "NetTask",
-      "projectPath": "C:\\Users\\dovyd\\source\\repos\\NetTask\\NetTask.csproj",
+      "projectPath": "C:\\Users\\dovyd\\Source\\Repos\\NetTask\\csharp\\NetTask.csproj",
       "packagesPath": "C:\\Users\\dovyd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dovyd\\source\\repos\\NetTask\\obj\\",
+      "outputPath": "C:\\Users\\dovyd\\Source\\Repos\\NetTask\\csharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

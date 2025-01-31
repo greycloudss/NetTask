@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using NetTask.NetworkScanner;
 
 namespace NetTask {
     public class NetTask {
@@ -71,8 +72,11 @@ namespace NetTask {
 
             matchFlags();
 
-            if (args.Contains("-net"))
-                network = new(timer, amount);
+            if (args.Contains("-net")) {
+                network = new();
+                foreach(var a in network.ReturnAddresses())
+                    Console.WriteLine($"{a}");
+            }
 
             if (args.Contains("-port")) {
                 Console.WriteLine("starting");
@@ -105,7 +109,8 @@ namespace NetTask {
                 Console.WriteLine("No arguments provided");
                 return;
             }
-            NetTask netTask = new NetTask(args);
+
+            _ = new NetTask(args);
         }
     }
 }
